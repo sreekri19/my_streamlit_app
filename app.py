@@ -1,5 +1,5 @@
 import streamlit as st
-import pymupdf as fitz
+import fitz
 from transformers import BertTokenizer, BertModel
 import torch
 from rapidfuzz import fuzz
@@ -129,7 +129,7 @@ pdf_files = [
         "data/2006-08-29 Basile v. Honda_Exhibits to Depo of Paul LeCour.pdf",
         "data/2008-02-21 Bradford v. AW Chesterton_Depo Transcript of Paul LeCour.pdf",
         "data/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz 2.pdf",
-        "data/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz.pdf"
+        "data/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz.pdf",
         "data/2015-06-24 Reed v. 3M_Depo Transcript of Albert Indelicato.pdf"
 ]
 if st.button("Search"):
