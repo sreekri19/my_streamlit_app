@@ -1,7 +1,0 @@
-streamlit
-Flask
-Flask-CORS
-PyMuPDF
-transformers
-torch
-rapidfuzz
