@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz  # PyMuPDF for PDF processing
+import pymupdf as fitz
 from transformers import BertTokenizer, BertModel
 import torch
 from rapidfuzz import fuzz
