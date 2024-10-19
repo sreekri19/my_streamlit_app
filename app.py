@@ -1,5 +1,5 @@
 import streamlit as st
-import fitz
+import fitz  # PyMuPDF's correct import name is 'fitz'
 from transformers import BertTokenizer, BertModel
 import torch
 from rapidfuzz import fuzz
