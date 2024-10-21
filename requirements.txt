@@ -2,6 +2,6 @@ streamlit
 Flask
 Flask-CORS
 PyMuPDF
-transformers
+sentence-transformers
 torch
 rapidfuzz
