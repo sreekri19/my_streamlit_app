@@ -132,12 +132,13 @@ query_text = st.text_input("Enter the text to search:")
 
 # The backend is holding the PDFs; use predefined PDF paths
 pdf_files = [
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2004-08-11 Davidson v. Burns_Depo Transcript of Thomas Zagurski.pdf",
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2006-08-29 Basile v. Honda_Depo Transcript of Paul LeCour.pdf",
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2006-08-29 Basile v. Honda_Exhibits to Depo of Paul LeCour.pdf",
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2008-02-21 Bradford v. AW Chesterton_Depo Transcript of Paul LeCour.pdf",
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz 2.pdf",
-    "/Users/krishnasrinivaschilkamarri/Documents/DeBlase_Hackathon_prob_data/Pneumo Abex - Deposition Database/2015-06-24 Reed v. 3M_Depo Transcript of Albert Indelicato.pdf"
+    "data/2004-08-11 Davidson v. Burns_Depo Transcript of Thomas Zagurski.pdf",
+        "data/2006-08-29 Basile v. Honda_Depo Transcript of Paul LeCour.pdf",
+        "data/2006-08-29 Basile v. Honda_Exhibits to Depo of Paul LeCour.pdf",
+        "data/2008-02-21 Bradford v. AW Chesterton_Depo Transcript of Paul LeCour.pdf",
+        "data/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz 2.pdf",
+        "data/2010-10-12 Bankhead v. Allied_Depo Transcript of Ludlow Earle Bretz.pdf",
+        "data/2015-06-24 Reed v. 3M_Depo Transcript of Albert Indelicato.pdf"
 ]
 
 # Search functionality
